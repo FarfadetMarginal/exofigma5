@@ -149,6 +149,7 @@ footer a:hover{
     border-radius: 9999px;
     color: #4338CA;
     font-weight: 700;
+    font-style: italic;
 
 }
 
@@ -156,9 +157,85 @@ footer a:hover{
 
     font-weight: 800;
     font-size: 72px;
+    padding: 20px 0;
 }
 
 #s1 span{
 
     color: #4F46E5;
 }
+
+#art1{
+
+        padding: 15px;
+        gap: 20px;
+}
+
+#s1p2{
+
+
+font-weight: 400;
+font-size: 20px;
+line-height: 33px;
+color: #475569;
+padding-bottom: 60px;
+
+}
+
+#s1b1{
+
+padding: 18px 32px;
+border-radius: 16px;
+background-color: #0F172A;
+color: white;
+
+}
+
+#s1b2{
+
+padding: 18px 32px;
+border-radius: 16px;
+color: #0F172A;
+background-color: white;
+border-width: 1px;
+border-color: black;
+margin: 0 15px;
+
+}
+
+#s1d9{
+
+    gap: 15px;
+}
+
+#s1b1:hover{
+color: #0F172A;
+background-color: white;
+
+}
+
+#s1b2:hover{
+background-color: #0F172A;
+color: white;
+}
+
+
+#avert{
+
+background-color: #DCFCE7;
+color: #16A34A;
+
+font-weight: 700;
+
+font-size: 16px;
+
+line-height: 24px;
+width: 40px;
+height: 40px;
+
+border-radius: 9999px;
+text-align-last: center;
+align-content: space-evenly;
+
+}
+
