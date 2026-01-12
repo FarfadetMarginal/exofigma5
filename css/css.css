@@ -10,7 +10,11 @@
 a{
 
     text-decoration: none;
-     color: #475569;
+}
+
+header a{
+
+         color: #475569;
 }
 
 header a:hover{
@@ -84,6 +88,40 @@ header img{
 
 }
 
+footer{
+
+    background-color: #0F172A;
+    color: #94A3B8;
+}
 
 
+#f1{
+    max-width: 1142px;
+    height: 160px;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    gap: 15px;
+}
 
+footer a{
+
+    color: #94A3B8;
+}
+
+footer ul{
+
+    display: flex;
+    gap: 30px;
+}
+
+footer img{
+
+    width: 50%;
+}
+
+footer a:hover{
+    color: white;
+}
