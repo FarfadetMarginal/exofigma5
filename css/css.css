@@ -188,6 +188,8 @@ padding: 18px 32px;
 border-radius: 16px;
 background-color: #0F172A;
 color: white;
+    display: block;
+    width: fit-content;
 
 }
 
@@ -200,12 +202,15 @@ background-color: white;
 border-width: 1px;
 border-color: black;
 margin: 0 15px;
+    display: block;
+    width: fit-content;
 
 }
 
 #s1d9{
 
     gap: 15px;
+    display: flex;
 }
 
 #s1b1:hover{
@@ -248,7 +253,7 @@ align-content: space-evenly;
     display: flex;
     gap: 15px;
     position: absolute;
-    right: 0;
+    right: -40px;
     bottom: 140px;
 }
 
@@ -275,3 +280,107 @@ color: #64748B;
     position: relative;
 }
 
+
+#s2a1{
+padding: 100px 15px;
+    text-align: center;
+}
+
+
+#s2a1 h2{
+
+font-weight: 800;
+font-size: 36px;
+line-height: 40px;
+color: #0F172A;
+}
+
+#s2a1 p{
+width: 672px;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #64748B;
+    justify-self: center;
+    padding: 15px 0;
+}
+
+#s2a2{
+
+    display: flex;
+    margin: auto;
+    max-width: 1104px;
+    padding: 0px 15px 100px 15px;
+    gap: 40px;
+    
+}
+
+#warning{
+
+color:#EA580C;
+padding: 17px;
+border-radius: 16px;
+
+background-color: #FFEDD5;
+}
+
+#cloud{
+
+color:#2563EB;
+padding: 17px;
+border-radius: 16px;
+
+background-color: #DCFCE7;
+}
+
+#book{
+
+color: #9333EA;
+padding: 17px;
+border-radius: 16px;
+
+background-color: #F3E8FF;
+}
+
+.s2d1 h3{
+
+padding-top: 50px;
+padding-bottom: 20px;
+
+font-weight: 800;
+
+font-size: 20px;
+
+line-height: 28px;
+color: #0F172A;
+
+}
+
+.s2d1 p{
+
+font-weight: 400;
+
+font-size: 14px;
+
+line-height:23px;
+
+color: #475569;
+}
+
+
+@media screen and (max-width :748px) {
+
+
+    #s2a2{
+
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+#s2a1 p{
+width: fit-content;
+padding: 15px;
+}
+
+}
