@@ -239,3 +239,39 @@ align-content: space-evenly;
 
 }
 
+#s1d5{
+
+    background-color: white;
+    border-radius: 16px;
+    width: fit-content;
+    padding: 15px;
+    display: flex;
+    gap: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 140px;
+}
+
+#s1p7{
+ 
+font-weight:700;
+font-size: 12px;
+line-height: 16px;
+color: #0F172A;
+
+}
+
+#s1p8{
+
+font-weight: 400;
+font-size: 10px;
+line-height:15px;
+color: #64748B;
+
+}
+
+#art2{
+
+    position: relative;
+}
+
